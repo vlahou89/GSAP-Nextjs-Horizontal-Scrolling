@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 function App() {
   const scroller = useRef();
   const skills = useRef();
+
   useEffect(() => {
     let skillSet = gsap.utils.toArray('.skill-set');
 

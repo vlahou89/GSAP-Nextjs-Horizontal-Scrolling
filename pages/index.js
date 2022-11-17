@@ -7,7 +7,6 @@ export default function Home() {
     <div className="overflow-hidden">
       <div className=" w-screen h-screen bg-black flex items-center justify-center  text-purple-500 font-bungee text-7xl">
         <p className="animate-bounce">Scroll down</p>
-        <svg class="animate-bounce w-6 h-6 ..."></svg>
       </div>
       <HorizontalGallery />
       <div className="w-screen h-screen bg-black flex items-center justify-center text-purple-500 font-bungee text-7xl">
